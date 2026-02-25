@@ -7,19 +7,15 @@ http://39.134.61.219/PLTV/88888888/224/3221227090/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV2HD
 http://39.134.61.219/PLTV/88888888/224/3221226929/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV3HD
-http://39.134.61.219/PLTV/88888888/224/3221226889/index.m3u8
+http://58.57.40.22:9901/tsfile/live/1002_1.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV4HD
 http://39.134.61.219/PLTV/88888888/224/3221226845/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV5HD
 http://39.134.61.219/PLTV/88888888/224/3221226900/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV5HD
 http://39.134.61.219/PLTV/88888888/224/3221226944/index.m3u8
-#EXTINF:-1 group-title="央视频道",CCTV5+HD
-http://39.134.61.219/PLTV/88888888/224/3221226912/index.m3u8
-#EXTINF:-1 group-title="央视频道",CCTV5+HD
-http://39.134.61.219/PLTV/88888888/224/3221227092/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV6HD
-http://39.134.61.219/PLTV/88888888/224/3221226891/index.m3u8
+http://182.150.23.74:808/hls/6/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV7HD
 http://39.134.61.219/PLTV/88888888/224/3221226925/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV8HD
@@ -28,8 +24,6 @@ http://39.134.61.219/PLTV/88888888/224/3221226946/index.m3u8
 http://39.134.61.219/PLTV/88888888/224/3221226849/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV9HD
 http://39.134.61.219/PLTV/88888888/224/3221226976/index.m3u8
-#EXTINF:-1 group-title="央视频道",CCTV10HD
-http://39.134.61.219/PLTV/88888888/224/3221226904/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV10HD
 http://39.134.61.219/PLTV/88888888/224/3221226966/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV11HD
@@ -41,11 +35,7 @@ http://39.134.61.219/PLTV/88888888/224/3221226906/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV12HD
 http://39.134.61.219/PLTV/88888888/224/3221226921/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV13HD
-http://39.134.61.219/PLTV/88888888/224/3221226481/index.m3u8
-#EXTINF:-1 group-title="央视频道",CCTV13HD
 http://39.134.61.219/PLTV/88888888/224/3221226853/index.m3u8
-#EXTINF:-1 group-title="央视频道",CCTV14HD
-http://39.134.61.219/PLTV/88888888/224/3221226908/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV14HD
 http://39.134.61.219/PLTV/88888888/224/3221226974/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV15HD
@@ -54,6 +44,10 @@ http://39.134.61.219/PLTV/88888888/224/3221226855/index.m3u8
 http://39.134.61.219/PLTV/88888888/224/3221226910/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV17HD
 http://39.134.61.219/PLTV/88888888/224/3221226857/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV5+HD
+http://39.134.61.219/PLTV/88888888/224/3221226912/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV5+HD
+http://39.134.61.219/PLTV/88888888/224/3221227092/index.m3u8
 # 辽宁地方频道
 #EXTINF:-1 group-title="辽宁地方频道",辽宁北方HD
 http://39.134.61.219/PLTV/88888888/224/3221226865/index.m3u8
@@ -147,10 +141,3 @@ http://39.134.61.219/PLTV/88888888/224/3221226885/index.m3u8
 # 少儿频道
 #EXTINF:-1 group-title="少儿频道",金鹰卡通HD
 http://39.134.61.219/PLTV/88888888/224/3221226940/index.m3u8
-# 平台频道
-#EXTINF:-1 group-title="平台频道",咪咕视频HD
-http://39.134.61.219/PLTV/88888888/224/3221226899/index.m3u8
-#EXTINF:-1 group-title="平台频道",咪咕视频HD
-http://39.134.61.219/PLTV/88888888/224/3221226901/index.m3u8
-#EXTINF:-1 group-title="平台频道",百事通liveHD
-http://39.134.61.219/PLTV/88888888/224/3221226973/index.m3u8

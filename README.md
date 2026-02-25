@@ -30,6 +30,7 @@ In Cloudflare dashboard:
 ## Check invalid sources
 
 Use the Python checker to validate URLs in `IPTV.m3u` and generate a markdown report.
+It checks playability, not only whether `GET` returns HTTP `200`.
 
 - Run:
   - `python3 scripts/check_sources.py --input IPTV.m3u`
@@ -37,5 +38,9 @@ Use the Python checker to validate URLs in `IPTV.m3u` and generate a markdown re
   - `python3 scripts/check_sources.py --input IPTV.m3u --output reports/latest_invalid_report.md`
 - CI-style failure when any source is invalid:
   - `python3 scripts/check_sources.py --input IPTV.m3u --fail-on-invalid`
+- Check a single URL directly:
+  - `python3 scripts/check_sources.py --check-url "http://example.com/live/index.m3u8"`
+- Exclude stuttering sources (speed-based):
+  - `python3 scripts/check_sources.py --input IPTV.m3u --probe-segments 4 --min-realtime-ratio 1.2 --min-single-realtime-ratio 0.9 --min-segment-kbps 800`
 
 Report includes channel name, source URL, line numbers in the source file, and whether the channel has alternative sources.
