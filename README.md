@@ -26,3 +26,16 @@ In Cloudflare dashboard:
 2. Add a custom domain (for example `tv.example.com`).
 3. Then access:
    - `https://tv.example.com/IPTV.m3u`
+
+## Check invalid sources
+
+Use the Python checker to validate URLs in `IPTV.m3u` and generate a markdown report.
+
+- Run:
+  - `python3 scripts/check_sources.py --input IPTV.m3u`
+- Custom report path:
+  - `python3 scripts/check_sources.py --input IPTV.m3u --output reports/latest_invalid_report.md`
+- CI-style failure when any source is invalid:
+  - `python3 scripts/check_sources.py --input IPTV.m3u --fail-on-invalid`
+
+Report includes channel name, source URL, line numbers in the source file, and whether the channel has alternative sources.
