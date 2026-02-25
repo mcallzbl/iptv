@@ -1,0 +1,7 @@
+name = "iptv-proxy"
+main = "src/worker.js"
+compatibility_date = "2026-02-25"
+
+[[rules]]
+type = "Text"
+globs = ["**/*.m3u"]
